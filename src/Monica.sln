@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monica", "Monica\Monica.csproj", "{DB28A7D0-196C-407B-BF0F-F8C872C562D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{8994D74B-52D4-4929-923E-6E67FF40C0D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB28A7D0-196C-407B-BF0F-F8C872C562D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB28A7D0-196C-407B-BF0F-F8C872C562D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB28A7D0-196C-407B-BF0F-F8C872C562D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB28A7D0-196C-407B-BF0F-F8C872C562D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8994D74B-52D4-4929-923E-6E67FF40C0D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8994D74B-52D4-4929-923E-6E67FF40C0D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8994D74B-52D4-4929-923E-6E67FF40C0D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8994D74B-52D4-4929-923E-6E67FF40C0D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E975B50-B37F-4F68-9F39-3D9B1F5EA54B}
+	EndGlobalSection
+EndGlobal
