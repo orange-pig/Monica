@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace BlueOrigin.Wpf.Controls.Core.Commands
+namespace Monica.Commands
 {
     public class ActionCommand : ICommand
     {
