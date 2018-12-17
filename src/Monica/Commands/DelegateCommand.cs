@@ -72,16 +72,16 @@ namespace Monica.Commands
 
         #endregion
     }
-    public class DeletgateCommand : ICommand
+    public class DelegateCommand : ICommand
     {
         public Action ExecuteCommand = null;
         public Func<object, bool> CanExecuteCommand = null;
         public event EventHandler CanExecuteChanged;
-        public DeletgateCommand()
+        public DelegateCommand()
         {
 
         }
-        public DeletgateCommand(Action executeMethod) => ExecuteCommand = executeMethod ?? throw new ArgumentNullException("executeMetnod");
+        public DelegateCommand(Action executeMethod) => ExecuteCommand = executeMethod ?? throw new ArgumentNullException("executeMetnod");
 
         public bool CanExecute(object parameter)
         {

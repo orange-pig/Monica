@@ -52,7 +52,7 @@
   <ItemGroup>
     <Compile Include="Commands\ActionCommand.cs" />
     <Compile Include="Mvvm\BindableBase.cs" />
-    <Compile Include="Commands\DeletgateCommand.cs" />
+    <Compile Include="Commands\DelegateCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

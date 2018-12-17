@@ -34,7 +34,7 @@ namespace Demo.ViewModel
         }
 
 
-        public ICommand EnterCommand { get { return new Monica.Commands.DeletgateCommand(Enter); } }
+        public ICommand EnterCommand { get { return new Monica.Commands.DelegateCommand(Enter); } }
 
 
         private void Enter()
