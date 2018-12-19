@@ -7,16 +7,16 @@ using System.Windows.Input;
 namespace Monica.Commands
 {
     //一个重载的委托命令 mvvm
-    public class DeletgateCommand<T> : ICommand
+    public class DelegateCommand<T> : ICommand
     {
         private readonly Action<T> _executeMethod = null;
         private readonly Func<T, bool> _canExecuteMethod = null;
 
-        public DeletgateCommand(Action<T> executeMethod)
+        public DelegateCommand(Action<T> executeMethod)
             : this(executeMethod, null)
         { }
 
-        public DeletgateCommand(Action<T> executeMethod, Func<T, bool> canExecuteMethod)
+        public DelegateCommand(Action<T> executeMethod, Func<T, bool> canExecuteMethod)
         {
             _executeMethod = executeMethod ?? throw new ArgumentNullException("executeMetnod");
             _canExecuteMethod = canExecuteMethod;
