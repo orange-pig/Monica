@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Demo\Demo.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monica", "Monica\Monica.csproj", "{1624253E-9564-46E1-83CE-0FE5762104FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_net45", "Demo_net45\Demo_net45.csproj", "{DFB7BC99-C81E-442C-BBC7-5425C96C6138}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1624253E-9564-46E1-83CE-0FE5762104FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1624253E-9564-46E1-83CE-0FE5762104FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1624253E-9564-46E1-83CE-0FE5762104FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB7BC99-C81E-442C-BBC7-5425C96C6138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB7BC99-C81E-442C-BBC7-5425C96C6138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB7BC99-C81E-442C-BBC7-5425C96C6138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB7BC99-C81E-442C-BBC7-5425C96C6138}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
