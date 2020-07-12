@@ -12,7 +12,6 @@ namespace Monica.Commands
         private readonly Action<T> _executeMethod = null;
         private readonly Func<T, bool> _canExecuteMethod = null;
 
-        public event EventHandler CanExecuteChanged;
 
         public DelegateCommand(Action<T> executeMethod)
             : this(executeMethod, null)
@@ -49,10 +48,11 @@ namespace Monica.Commands
         #endregion
 
 
-        //event EventHandler ICommand.CanExecuteChanged {
-        //    add { CommandManager.RequerySuggested += value; }
-        //    remove { CommandManager.RequerySuggested -= value; }
-        //}
+        event EventHandler ICommand.CanExecuteChanged
+        {
+            add { CommandManager.RequerySuggested += value; }
+            remove { CommandManager.RequerySuggested -= value; }
+        }
 
         #region ICommand 成员
 

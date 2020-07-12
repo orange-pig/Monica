@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{F22651A3-AC0D-4422-AB06-59BE96FB785A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Demo\Demo.csproj", "{F22651A3-AC0D-4422-AB06-59BE96FB785A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monica", "Monica\Monica.csproj", "{1624253E-9564-46E1-83CE-0FE5762104FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monica", "Monica\Monica.csproj", "{1624253E-9564-46E1-83CE-0FE5762104FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
