@@ -6,12 +6,16 @@
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>1.0.3</Version>
-    <Authors>OrangPig</Authors>
-    <Description>Simple Mvvm</Description>
+    <Authors>Orang Pig</Authors>
+    <Description>A base MVVM, very very very simple!</Description>
     <PackageProjectUrl>https://github.com/orange-pig/Monica</PackageProjectUrl>
     <PackageTags>Mvmm</PackageTags>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Monica.snk</AssemblyOriginatorKeyFile>
+    <Company>Orang Pig</Company>
+    <PackageReleaseNotes>add plat support is .net core wpf app</PackageReleaseNotes>
+    <Copyright>Orang Pig</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 </Project>
