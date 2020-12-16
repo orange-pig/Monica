@@ -5,7 +5,7 @@
     <UseWPF>true</UseWPF>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <Authors>Orang Pig</Authors>
     <Description>A base MVVM, very very very simple!</Description>
     <PackageProjectUrl>https://github.com/orange-pig/Monica</PackageProjectUrl>
@@ -13,7 +13,7 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Monica.snk</AssemblyOriginatorKeyFile>
     <Company>Orang Pig</Company>
-    <PackageReleaseNotes>add plat support is .net core wpf app</PackageReleaseNotes>
+    <PackageReleaseNotes>add BindableBase supported Caller Info Attributes, fix once change notify all.</PackageReleaseNotes>
     <Copyright>Orang Pig</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
